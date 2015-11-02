@@ -1,0 +1,46 @@
+=== WAYSTATION ===
+
+Terry and I were sitting together on the bench in the control room, and by "control room" I mean a utility shed with a bunch of high-tech equipment stuffed inside. On the desk in front of us were our thinkpads, Linux on mine and Windows on Terry's. The thinkpads were connected by serial cable--actually, a serial to usb cable--to an absurdly large stack of data multiplexers, maybe 8 or 9 of them, starting on a stool near our feet and towering up to about human height. In all they permitted access to 64 lensless DSLR cameras facing straight up. Actually, that's a lie, they do have a "lens," but I'll get to that in a moment.
+
+Other than the tech the shed was pretty bare. There were a few toolkits on the floor filled with all sorts of screwdrivers and pliers. To the right of us on the wall was a big analogue clock with missing hands and a tiny watch-sized digital version glued to the face. Behind us was a big map of the surrounding area--just wide enough to include Urumqi--with a red pushpin indicating the location of the observatory.
+
+Also on the floor was a mess of power and data cables for both the multiplexers and the laptops, which Anne almost tripped over coming in.
+
+  Anne: Has 16 started working again? We jimmied the cables around.
+
+  Terry: Uh, give me a minute to check.. Maggie?
+
+That was my cue to manually configure the multiplexer stack to route the data from camera #16 to my computer, where I could run diagnostics on it. Since the DSLR's failure mode is "don't record anything if something is wrong" here "diagnostics" mean "take a photo." The "something wrong" could range from "corrupted disk" to "scratch on CCD." We were /hoping/ the problem would be "bad connection," since this was the problem for cameras 18, 24, and 33.
+
+I sent the photo request to 16 and waited for the photo to come back. The exposure of the camera was configured so a signal of "the light + light pollution" would map to full intensity on the imaging sensor, with a low ISO for an adequate signal to noise ratio. Since the light is dim this implied an exposure time of 2 seconds.
+
+At our latitude the speed of the earth at the surface is about 800 kilometers an hour, which is the same speed that a star shadow travels westward. In 2 seconds a shadow would have traveled a little under half a kilometer. If we tried to image the anomaly with these exposure settings (the only feasible exposure settings, as it happens) all we'd have is an extremely horizontally blurred image.
+
+In fact, this is what we've had for a very long time until the Goldin Orbital Shadow Imaging Platform was put into rendezvous with it. The images it captured, only about 3 meters per pixel, gave us the first look of the anomaly's "dented teardrop" shape. No other imaging experiment has gotten better resolution than Goldin. Hopefully this streak will end with us.
+
+The solution to the blurring problem is fairly simple. When I said I was lying about the cameras having lenses, this was because they /do/ have lenses, but they're not anything you'd picture in your head when I say "DSLR Lenses." In fact, they look more like a big lighthouse lens.
+
+This is our setup: To start, we have an eight by eight matrix of lensless DSLR cameras pointing straight up. Above each camera is a 1m^2 Fresnel lens that focuses collimated light (/the/ light, in our case) into the DSLR's 7mm^2 CCD sensor. This multiplies the total light received by each camera 22-thousand-fold, allowing us to reduce our exposure time to only a tenth of a millisecond. In that time a shadow can only move 2 centimeters. Although this movement is above the per-pixel resolution of our cameras, it is /also/ below noise level. Even if it were above noise level, we could deconvolve it fairly easily--small motion blur behaves very nicely in the frequency domain.
+
+My request to camera 16 failed to bounce back. I turned to Terry and shook my head.
+
+  Terry: Well fuck.
+
+  Anne: Hmmmm, suppose we need to replace it with a backup?
+
+  Maggie: Didn't we already use both of them for 2 and 44?
+
+  Terry: We did...
+
+  Anne: Oh no. Should we try fixing the three and use whichever works?
+
+  Maggie: The three?
+
+  Anne: The broken 2, 44, and 16s.
+
+  Maggie: Oh, yeah. Ugh, we can make do for now with 63 since we're just snapping one of the orbcomms tonight. When is that happening again?
+
+  Terry: Like, forty minutes.
+
+  Maggie: Let's just let them be for now. We can take a look at them afterward.
+
