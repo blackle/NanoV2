@@ -1,0 +1,76 @@
+Waystation 02
+it crashed the first time we tried to run it.
+The problem was the most obvious one: the program was expecting camera 16 to respond to the request with an image, but instead it returned with an error code (always 1, which is extremely unhelpful.) It wouldn't see the error but instead see an empty output, try to parse it as a RAW stream, then crash because the resolution of the image is 0x0 when all the functions assume a resolution of 4000x3000.
+
+  Terry: Well, I wasn't planning on this happening.
+
+  Maggie: We can always use my script that just does the data dumps, then put those through your app later to get the pub images.
+
+  Terry: Uh, I'd rather we fix it now so we have something to show Leland by dinner, haha. It doesn't seem to hard to fix...
+
+Which was the opposite of what happened. We first tried to evaluate what it would take to add the correct error handling. It wasn't pretty, most of the code assumed all 64 image slots would be filled, from the confidence calculator to the image splicer. We then opted to add a simple error handler that loads dummy data of all zeros into the missing frame. This crashed too, division by zero error.
+The final solution was not an elegant one. If there is an error, clone the output from the first camera. Terry and I cringed when we came up with the workaround, then dramatically sobbed when it worked flawlessly.
+We did about eight dry runs, picking up one or two pixel sized shadows below noise floor (the confidence maps said "< 0.01" all around.) We called Anne and Frieda inside to show them our results.
+
+  Maggie: Ta-da!
+
+  Anne: Looks good guys! I see we picked up some strays.
+
+Annie pointed to a lone white pixel on Terry's screen.
+
+  Maggie: I can look up what that was.
+
+  Terry: If we're gonna assume it /is/ something doesn't that defeat the purpose of the confidence maps?
+
+  Frieda: Oh hush, I specifically made the error estimator extremely conservative. Tell us what it is, Mags.
+
+I booted up stellarium and eyed Terry's monitor to read the time of capture. I entered it, panned straight up and scrolled way in.
+
+  Maggie: What's our per-pixel angular resolution again? [FILL ME IN], right?
+
+  Terry: You got it.
+
+  Maggie: Alright, looks like that pixel is very likely HD 4628.
+
+  Frieda: Ugh, one of those with the impersonal names.
+
+  Anne: Why don't we name it?
+
+We ended up naming it XAO's star, in honour of the observatory. Then an alarm started going off on Terry's phone.
+
+  Terry: Oh shit, Orbicomm is coming by in 10 minutes.
+
+  Maggie: We tested the timing system, right?
+
+  Terry: Fuck. We can do one now for like, five minutes, then we'd immediately have to set one for the orbicomm capture.
+
+I sighed and leaned back on the bench.
+
+  Maggie: Hm, well if the timing system doesn't work that gives us 5 minutes to fix it, which will consist of us running around like headless chickens, I think. How about we use the orbicomm capture to test the timing.
+
+  Terry: That sounds very mavericky, even for you.
+
+  Maggie: I'm just being realistic. Also I am not that mavericky.
+
+  Anne: You kinda are.
+
+  Frieda: Mhm
+
+  Maggie: Oh now you all gang up on me? Terry doesn't do error handling!
+
+The pair gasped and looked at Terry in mock-surprise. Terry held his chest.
+
+  Terry: Et Tu, Maggie?
+
+  Maggie: Feel the burn, buddy. Uh, we should really set that timer.
+
+  Terry: I was doing it while you were trying to think of a comeback.
+
+  Maggie: Yeesh, banter. 
+
+We were silent for a moment.
+
+  Maggie: Uh, you /did/ set it, right?
+
+  Terry: Yeah, yeah it's set. Counting down in the corner there.
+
