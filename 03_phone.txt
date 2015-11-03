@@ -1,0 +1,13 @@
+Waystation 03
+It would have been neat to go outside and watch the shadow zoom over the imager, however we didn't do it for two reasons:
+ 1.	 the imager is an eight minute walk from the control room
+ 2.	 the shadow is only about 1m^2, basically imperceptible unless you're looking straight up at the light, and even then all you'd see is a brief dimming.
+ So we kept inside the utility closet--I mean control room--and chatted while we watched the countdown. 
+
+  Maggie: Who wants to bet we can discern the outline of an unknown lost kausmonaut?
+  Terry: 30 bucks says he's waving.
+  Anne: Hmmm, I like those odds.
+  Frieda: 10 seconds.
+
+And then we were silent. Three, two, one, zero.
+There was nothing for maybe a second or a half, then the images started appearing in their place. As it happened the first cameras to respond were /not/ the ones that the shadow fell on, our post-processing code is fast on blank images but slow on actual shadows. 
