@@ -1,5 +1,5 @@
-Waystation 02
 it crashed the first time we tried to run it.
+
 The problem was the most obvious one: the program was expecting camera 16 to respond to the request with an image, but instead it returned with an error code (always 1, which is extremely unhelpful.) It wouldn't see the error but instead see an empty output, try to parse it as a RAW stream, then crash because the resolution of the image is 0x0 when all the functions assume a resolution of 4000x3000.
 
   Terry: Well, I wasn't planning on this happening.
@@ -74,3 +74,6 @@ We were silent for a moment.
 
   Terry: Yeah, yeah it's set. Counting down in the corner there.
 
+Orbcomm is a (now defunct) satellite communication network with [FILLMEIN] satellites operating in low earth orbit. One of them, Orbcomm-QL2, is by chance flying directly overhead tonight at [FILLMEIN]. Well, we had to move the imaging array about 40 meters south east from where we built it, and we'll need to move it back to image the anomaly, but other than that it's quite the stroke of luck.
+
+The satellite is about 1.5 meters tall, and since low earth orbit is negligible compared to the radius of the earth this corresponds to a shadow that's 1.4 meters tall, a perfect size to test the array on.

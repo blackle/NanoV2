@@ -1,3 +1,4 @@
+
 === WAYSTATION ===
 
 Terry and I were sitting together on the bench in the control room, and by "control room" I mean a utility shed with a bunch of high-tech equipment stuffed inside. On the desk in front of us were our thinkpads, Linux on mine and Windows on Terry's. The thinkpads were connected by serial cable--actually, a serial to usb cable--to an absurdly large stack of data multiplexers, maybe 8 or 9 of them, starting on a stool near our feet and towering up to about human height. In all they permitted access to 64 lensless DSLR cameras facing straight up. Actually, that's a lie, they do have a "lens," but I'll get to that in a moment.
