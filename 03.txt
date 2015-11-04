@@ -17,3 +17,17 @@ So we kept inside the utility closet--I mean control room--and chatted while we 
 And then we were silent. Three, two, one, zero.
 
 There was nothing for maybe a second or a half, then the images started appearing in their place. As it happened the first cameras to respond were /not/ the ones that the shadow fell on, our post-processing code is fast on blank images but slow on actual shadows. 
+
+---
+
+Nearly every known astronomical body can be imaged by traditional astronomy, almost by definition. Of these bodies very few have /shadows/ that can even be imaged to begin with. And even then shadows don't have very many positives: they're blurry, noisy, and whereas light reflected or emitted from a body can be viewed from anywhere on the planet (save some exceptions, like southern or northern constellations) to find a shadow you have to either have a lot of luck or have a lot of money to travel. Because of these reasons shadow astronomy hasn't really taken off.
+
+The anomaly (also known as Kordel's Object or The Kordel Object) is special in that it can be imaged through it's shadow, but the "source" of the shadow is yet to be found. The anomaly follows an extremely irregular and aperiodic orbit. The orbit, when projected onto the earth, overlaps itself so many times it resembles a pincushion. This orbit, a Lissajous curve, is earth synchronous, and based on speed an trajectory must be orbiting Lagrangian point L_2.
+
+A Lagrangian point is essentially a saddle point between gravity wells. For the earth and the sun, it is about where the gravitational force of the sun dominates the gravitational force of the earth [VERIFY LATER]. There are five such points in the earth-sun system, two in front and behind the earth with respect to the sun (L_1 and L_2), one on the exact opposite side of the sun at earth distance (L_3), and two located to the left and right of the earth at a third of an orbital distance apart (L_4 and L_5) [VERIFY LATER].
+
+The anomaly orbits L_2, about 4 times the distance from the earth to the moon, and has an orbital radius the same as the moon's to the earth. From this information we can calculate it's major length from it's shadow dimensions. The shadow is on average about 8m tall, which implies a length of ~2km. As mentioned before, it's orbit is highly unstable, unstable enough to collapse after at most a year. The anomaly has been around since it was discovered 6 years ago, so it is highly unlikely that it is a transient asteroid.
+
+Even though we know it's position at any given moment, the anomaly refuses to be captured by ground or orbital based teloscopy. When we point a telescope at it, there's nothing. When we shoot Doppler radar at it, still nothing. The anomaly either absorbs fully or is totally transparent to visible light, infrared light, x-rays, radio waves, microwaves, and any other electromagnetic radiation I may have missed. Since it casts a shadow it /must/ be absorbent, not transparent. But, when predictions say it must be transiting a star or other body, no such transiting is visible. Either it is absorbent to the Light and transparent to everything else, or something very strange is going on.
+
+To sum up. There are two things terribly wrong with the anomaly. First: it's orbit is extremely unstable, yet it has sustained it for years and two: it's absorption spectra is inconsistent across observations.
