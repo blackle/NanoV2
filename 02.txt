@@ -9,7 +9,9 @@ The problem was the most obvious one: the program was expecting camera 16 to res
   Terry: Uh, I'd rather we fix it now so we have something to show Leland by dinner, haha. It doesn't seem to hard to fix...
 
 Which was the opposite of what happened. We first tried to evaluate what it would take to add the correct error handling. It wasn't pretty, most of the code assumed all 64 image slots would be filled, from the confidence calculator to the image splicer. We then opted to add a simple error handler that loads dummy data of all zeros into the missing frame. This crashed too, division by zero error.
+
 The final solution was not an elegant one. If there is an error, clone the output from the first camera. Terry and I cringed when we came up with the workaround, then dramatically sobbed when it worked flawlessly.
+
 We did about eight dry runs, picking up one or two pixel sized shadows below noise floor (the confidence maps said "< 0.01" all around.) We called Anne and Frieda inside to show them our results.
 
   Maggie: Ta-da!
