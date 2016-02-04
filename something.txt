@@ -1,0 +1,15 @@
+Here is a riddle: suppose we have an ant on one end of a meter long rope. At the beginning of time the ant starts walking toward the other end of the rope at 1 centimeter every second. At the same time, the rope begins to expand at a rate of 1 kilometer every second. Will the ant ever reach the other end?
+
+It might seem obvious that the end of the rope is moving much to fast away from the ant for it to catch up. After 10 seconds the ant will have moved 10 centimeters but the end of the rope will have shot 10 kilometers away.
+
+However, the answer to the riddle is yes. The ant eventually reaches the end of the rope. The crutial bit of information is the ant is moving 1cm _relative_ to the rope directly below it. So not only is the end of the rope receding away, the _start_ of the rope is also receeding away at a fraction of 1km/s. As the ant putters further along on the rope it gets a "speed boost" from the rope's expansion. Little by little the ant goes faster and faster, until eventually it's speed increases to the point that it can reach the far end of the rope.
+
+But how long would this take? Months? Years? Millenia?
+
+Suppose you live for 200 billion years. Now suppose that you have an implant in your head that, once every second and all in one second, jolts your brain in such a way that you subjectively experience 200 billion years of life. Now suppose that in those subjective lifetimes you have another, simulated implant, that does exactly the same thing. Now suppose that the level of nested lives is 16 layers deep.
+
+The amount of subjective time you'd experience in your entire existence wouldn't even come close to how long the ant takes to cross the rope. So does it even matter that the ant reaches the end when these timescales can only exist mathematically?
+
+That's all I have to write for today. As always, wake up, eat your food, do your work, brush your teeth. Live your life.
+
+Because the rope is growing.
